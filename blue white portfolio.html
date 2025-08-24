@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style2.css">
+    <title>Saif portfolio Blue theme</title>
+</head>
+<script>
+    //  for(let i =1; i<10; i++ ){
+    //     console.log(i)
+    //  };
+    //  while (let o = 2; o<8; o++ ){
+    //      console.log(o)
+    //  }
+    
+// FOR LOOP EXAMPLE
+for(let i = 0; i < 5; i++) {
+  // Runs 5 times: i = 0, 1, 2, 3, 4
+  console.log("For loop iteration:", i);
+}
+
+// WHILE LOOP EXAMPLE
+let x = 0;
+while(x < 5) {
+  // Runs while x is less than 5
+  console.log("While loop iteration:", x);
+  x++;
+}
+
+// DO-WHILE LOOP EXAMPLE
+let y = 0;
+do {
+  // Runs at least once, then checks condition
+  console.log("Do-while loop iteration:", y);
+  y++;
+} while(y < 5);
+
+// FOR-IN LOOP EXAMPLE (for objects)
+const person = {name: "Saif", age: 25, city: "Delhi"};
+for(let key in person) {
+  // Iterates over object properties
+  console.log(key, ":", person[key]);
+}
+
+// FOR-OF LOOP EXAMPLE (for arrays)
+const colors = ["blue", "white", "purple"];
+for(let color of colors) {
+  // Iterates over array values
+  console.log("Color:", color);
+}
+
+</script>
+
+
+<body>
+    
+
+    <header>
+        <nav>
+            <div class="nav__menu">
+                <a href="#" class="nav__logo">Saif</a>
+            </div>
+            <ul class="nav__list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class=" Home  " id="home">
+            <div class="home_text">
+                <h1>Hi,<br> I'm <span class="blue">Saif</span></h1>
+                <h2>Web Designer</h2>
+                <button class="btn"> <a href="#footer">Contact</a></button>
+            </div>
+            <div class="home_img">
+
+                <img src="I_m_Saif-removebg-preview.png" alt="admin holder">
+
+            </div>
+        </section>
+
+        <section class="about  group" id="about">
+            <h2 class="section_title">About</h2>
+            <div class="parent">
+                <div class="about_image">
+                    <img src="I_m_Saif-removebg-preview.png" alt="admin holder">
+                </div>
+                <div class="about_me">
+                    <h2 class="about_title"> I am Saif</h2>
+
+                    <p class="about-myself">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, magni? Rerum,
+                        illo adipisci dolorum provident nobis eum asperiores voluptates quae assumenda! Necessitatibus
+                        neque quisquam rem offici quis, dicta aliquam nemo sint deserunt sapiente enim numquam delectus
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section_three group" id="Skills">
+            <h2 class="section_title">Skills</h2>
+
+        </section>
+        <section class=" group" id="Work">
+            <h2 class="section_title">Work</h2>
+        </section>
+        <section class="contact group" id="footer">
+            <h2 class="section_title">Contact</h2>
+            <div class="form_container">
+                <form action="" class="form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="text" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__textarea"
+                        placeholder="Type your message here..."></textarea>
+                    <input type="button" value="Enter" class="contact__button button">
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer" ">
+        <p class=" footer_title"> Saif</p>
+        <p class="copy"> &#169; All rights reserved</p>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
